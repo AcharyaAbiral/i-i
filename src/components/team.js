@@ -3,9 +3,9 @@ import '../styles/team.css';
 
 const Team = () => {
     const teamMembers = [
-        { name: "Abiral Acharya", role: "Project Lead" },
-        { name: "John Doe", role: "AI Developer" },
-        { name: "Jane Smith", role: "UI/UX Designer" },
+        { name: "Abiral Acharya", role: "Developer" },
+        { name: "Ashreem Pandey", role: "Developer" },
+        { name: "Kashish Bataju", role: "Developer" },
     ];
 
     return (
