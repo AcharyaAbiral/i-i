@@ -1,4 +1,4 @@
-.home {
+/* .home {
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,6 +10,24 @@
     padding: 20px;
     box-sizing: border-box;
     color: #333; 
+} */
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Georgia', serif;  
+    padding: 20px;
+    box-sizing: border-box;
+    color: #333;
+    background-image: url('../assets/image.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.7
+    ); 
 }
 
 .home h1 {
