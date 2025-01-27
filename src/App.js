@@ -1,23 +1,21 @@
 import React from 'react';
-import Navbar from './components/navbar';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './components/home';
-import Features from './components/features';
-import Team from './components/team';
-import Contact from './components/contact';
+import Introduction from './components/introduction';
+import Navbar from './components/navbar';
 import Footer from './components/footer';
-import './App.css';
 
 const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <Home />
-      <Features />
-      <Team />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/introduction" element={<Introduction />} />
+            </Routes>
+            <Footer />
+        </Router>
+    );
 };
 
 export default App;
