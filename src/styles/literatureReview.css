@@ -1,0 +1,90 @@
+.literature-review {
+    background-color: #eaf2f8; 
+    padding: 20px 20px;
+    font-family: 'Georgia', serif;
+    color: #333;
+    line-height: 1.8; 
+    text-align: justify;
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.literature-review h2 {
+    font-size: 2.5em;
+    color: #0056b3; 
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.literature-review .paper {
+    margin-bottom: 30px; 
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px; 
+    border-left: 8px solid #0056b3; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.literature-review .paper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.literature-review h3 {
+    font-size: 1.8em;
+    color: #0056b3; 
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #0056b3; 
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.literature-review p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.8; 
+}
+
+.literature-review .reference {
+    font-size: 1em;
+    color: #888;
+}
+
+.literature-review .paper-1 {
+    background-color: #e6f0fa; 
+}
+
+.literature-review .paper-2 {
+    background-color: #d9ebfa; 
+}
+
+.literature-review .paper-3 {
+    background-color: #cce4f7; 
+}
+
+.literature-review .paper-4 {
+    background-color: #b8def5; 
+}
+
+.literature-review .paper-5 {
+    background-color: #a4d7f2;
+}
+
+@media (max-width: 768px) {
+    .literature-review h2 {
+        font-size: 2em;
+    }
+
+    .literature-review h3 {
+        font-size: 1.5em;
+    }
+
+    .literature-review p,
+    .literature-review .reference {
+        font-size: 1em;
+    }
+}
